@@ -19,7 +19,36 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add this line to your application's Gemfile:
+
+```ruby
+gem 'smalot-datetimepicker-rails'
+```
+
+Add the following directive to your Javascript manifest file (`application.js`):
+
+```javascript
+//= require bootstrap-datetimepicker
+```
+
+If you want to include a localization file, also add the following directive:
+
+```javascript
+//= require locales/bootstrap-datetimepicker.<locale>
+```
+
+Add the following line to your stylesheet file (`bootstrap_and_overrides.scss`) :
+
+```scss
+@import 'bootstrap';
+@import 'bootstrap-datetimepicker';
+```
+
+or if you're having problems (or using less) require it in your main stylesheet manifest file:
+
+```scss
+*= require bootstrap-datetimepicker
+```
 
 ## Contributing
 

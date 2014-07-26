@@ -1,6 +1,7 @@
 # Smalot::Datetimepicker::Rails
 
-TODO: Write a gem description
+This gem packages of smalot/bootstrap-datetimepicker (JavaScripts & stylesheets) is Rails 3.1+ asset pipeline. It adds ability to use [smalot/bootstrap-datetimepicker plugin](https://github.com/smalot/bootstrap-datetimepicker) within your Rails app without puting files inside `vendor` directory.
+
 
 ## Installation
 

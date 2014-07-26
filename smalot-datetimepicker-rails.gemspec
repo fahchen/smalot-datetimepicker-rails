@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'smalot/datetimepicker/rails/version'
+require 'smalot-datetimepicker-rails/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "smalot-datetimepicker-rails"
-  spec.version       = Smalot::Datetimepicker::Rails::VERSION
+  spec.version       = SmalotDatetimepicker::Rails::VERSION
   spec.authors       = ["fahchen"]
   spec.email         = ["dev.fah@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{smalot/bootstrap-datetimepicker's JavaScripts & stylesheets for Rails asset pipeline}
+  spec.description   = %q{This gem packages the smalot/bootstrap-datetimepicker (JavaScripts & stylesheets) for Rails asset pipeline}
+  spec.homepage      = "https://github.com/fahchen/smalot-datetimepicker-rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

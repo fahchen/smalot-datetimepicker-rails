@@ -1,4 +1,4 @@
-# Smalot::Datetimepicker::Rails
+# SmalotDatetimepicker::Rails
 
 This gem packages of smalot/bootstrap-datetimepicker (JavaScripts & stylesheets) is Rails 3.1+ asset pipeline. It adds ability to use [smalot/bootstrap-datetimepicker plugin](https://github.com/smalot/bootstrap-datetimepicker) within your Rails app without puting files inside `vendor` directory.
 
@@ -52,7 +52,7 @@ or if you're having problems (or using less) require it in your main stylesheet 
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/smalot-datetimepicker-rails/fork )
+1. Fork it ( https://github.com/fahchen/smalot-datetimepicker-rails/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
